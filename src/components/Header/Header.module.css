@@ -1,0 +1,6 @@
+.headerContainer {
+    min-height: 100px;
+    max-width: 450px;
+    border: 1px solid black;
+    text-align: center;
+}
