@@ -9,6 +9,7 @@ const Stash = () => {
           <div className={styles.searchbar}>Sökfält</div>
           <div className={styles.btn}> knapp Skapa projekt</div>
         </div>
+        <div className={styles.stashList}>lista över stash</div>
       </div>
     </div>
   );

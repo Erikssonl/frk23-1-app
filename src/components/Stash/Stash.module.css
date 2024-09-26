@@ -1,7 +1,7 @@
 .stashContentWrapper{
     border: 1px solid black;
     max-width: 450px;
-    min-height: 100svh;
+    min-height: 80svh;
 }
 
 .stashContainer{
@@ -33,4 +33,11 @@
     border: 1px solid black;
     margin: 10px;
     padding: 5px;
+}
+
+.stashList{
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    height: 450px;
 }
