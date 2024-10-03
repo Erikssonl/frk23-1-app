@@ -5,9 +5,15 @@ import { Login } from "@leriksson/frk-1-components";
 import styles from "./Test.module.css";
 
 function App() {
+  // const btnStyling = {
+  //   color: "black",
+  //   backgroundColor: "blue",
+  // };
+  // style={btnStyling}
+
   return (
     <>
-      <Login style={{ color: "red" }} btnTitle="Sign in" />
+      <Login className={styles.btn} btnTitle="Sign in" />
       {/* <Header /> */}
       {/* <Stash /> */}
     </>
