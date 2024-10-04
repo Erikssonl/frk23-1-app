@@ -5,14 +5,15 @@ import { Login } from "@leriksson/frk-1-components";
 import styles from "./Test.module.css";
 
 function App() {
-  const btnStyling = {
-    color: "black",
-    backgroundColor: "green",
-  };
+  // const btnStyling = {
+  //   color: "black",
+  //   backgroundColor: "green",
+  // };
+  // style={btnStyling}
 
   return (
     <>
-      <Login style={btnStyling} btnTitle="Sign in" />
+      <Login btnClassName={styles.customBtn} btnTitle="Sign in" />
       {/* <Header /> */}
       {/* <Stash /> */}
     </>
