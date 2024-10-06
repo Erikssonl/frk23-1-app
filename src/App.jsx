@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <Login btnClassName={styles.customBtn} btnTitle="Sign in" />
+      <Login btnStyle={styles.customBtn} btnTitle="Sign in" />
       {/* <Header /> */}
       {/* <Stash /> */}
     </>
